@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zxn6.github.io</id>
-    <title>老母族学霸</title>
-    <updated>2020-09-12T15:01:18.579Z</updated>
+    <title>老母猪学霸</title>
+    <updated>2020-09-12T15:02:14.161Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zxn6.github.io"/>
     <link rel="self" href="https://zxn6.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://zxn6.github.io/images/avatar.png</logo>
     <icon>https://zxn6.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, 老母族学霸</rights>
+    <rights>All rights reserved 2020, 老母猪学霸</rights>
     <entry>
         <title type="html"><![CDATA[无事]]></title>
         <id>https://zxn6.github.io/22211/</id>
