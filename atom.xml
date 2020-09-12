@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zxn6.github.io</id>
-    <title>Gridea</title>
-    <updated>2020-09-12T14:48:53.598Z</updated>
+    <title>老母族学霸</title>
+    <updated>2020-09-12T14:54:55.251Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zxn6.github.io"/>
     <link rel="self" href="https://zxn6.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://zxn6.github.io/images/avatar.png</logo>
     <icon>https://zxn6.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Gridea</rights>
+    <rights>All rights reserved 2020, 老母族学霸</rights>
     <entry>
-        <title type="html"><![CDATA[22211]]></title>
+        <title type="html"><![CDATA[无事]]></title>
         <id>https://zxn6.github.io/22211/</id>
         <link href="https://zxn6.github.io/22211/">
         </link>
         <updated>2020-09-12T12:34:07.000Z</updated>
-        <content type="html"><![CDATA[<p>52555😎😎😎😎</p>
+        <content type="html"><![CDATA[<p>2020年9月22日<br>
+今天我用github搭建了一个网站<br>
+由于之前的wordpress搭建的网站需要云服务器而且数据保存在云端，感觉有一种不安全感，现在数据在本地，比较方便。</p>
 ]]></content>
     </entry>
 </feed>
