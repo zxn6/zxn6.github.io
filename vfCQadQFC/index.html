@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>标签列表 | 老母猪学霸</title>
+<title>OneDrive | 老母猪学霸</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -12,13 +12,21 @@
 <link rel="stylesheet" href="https://zxn6.github.io/styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
-    <meta name="description" content="温故而知新">
+    <meta name="description" content="今日白嫖OneDrive失败，还是老实用QQ传文件吧  期待阿里网盘的上线。
+" />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -82,10 +90,36 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          <h2 class="tag-list-title">标签列表</h2>
-          <div class="tags-container">
+          <div class="post-detail">
+            <h2 class="post-title">OneDrive</h2>
+            <div class="post-date">2020-09-13</div>
             
+            <div class="post-content" v-pre>
+              <p>今日白嫖OneDrive失败，还是老实用QQ传文件吧  期待阿里网盘的上线。</p>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://zxn6.github.io/22211/">
+                  <h3 class="post-title">
+                    无事
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
           </div>
+
         </div>
       </div>
     </div>
@@ -105,6 +139,29 @@ var app = new Vue({
 </script>
 
 
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '86efd09a724d815c8827',
+        clientSecret: '8f1ee60c720c5368018d40a9ada16d9b4e841d5f',
+        repo: 'zxn6.github.io',
+        owner: 'zxn',
+        admin: ['zxn'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 

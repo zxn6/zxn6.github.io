@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zxn6.github.io</id>
     <title>老母猪学霸</title>
-    <updated>2020-09-13T01:16:53.625Z</updated>
+    <updated>2020-09-13T01:20:12.353Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zxn6.github.io"/>
     <link rel="self" href="https://zxn6.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://zxn6.github.io/images/avatar.png</logo>
     <icon>https://zxn6.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老母猪学霸</rights>
+    <entry>
+        <title type="html"><![CDATA[OneDrive]]></title>
+        <id>https://zxn6.github.io/vfCQadQFC/</id>
+        <link href="https://zxn6.github.io/vfCQadQFC/">
+        </link>
+        <updated>2020-09-13T01:17:27.000Z</updated>
+        <content type="html"><![CDATA[<p>今日白嫖OneDrive失败，还是老实用QQ传文件吧  期待阿里网盘的上线。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[无事]]></title>
         <id>https://zxn6.github.io/22211/</id>
