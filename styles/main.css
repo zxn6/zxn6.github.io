@@ -1956,11 +1956,27 @@ a {
   }
 }
 
+      .posttitlewithoutimg {
+        color: #91a7ff;
+      }
+    
         .describtion {
           color: #495057;
         }
       
         .menubutton {
           color: #bac8ff;
+        }
+      
+        .posttitle {
+          color: #1971c2;
+        }
+      
+        #sitegotimeDate,#sitegotimes,#footinfo,#footinfo a{
+          color: #868e96;
+        }
+      
+        .mobiledescribtion{
+          color: #868e96;
         }
       
