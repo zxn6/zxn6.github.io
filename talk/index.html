@@ -20,7 +20,7 @@
     
     <div id=side>
         <div class="avatar-border">
-            <img src="https://zxn6.github.io/images/avatar.png?v=1600706831173" class="avatar">
+            <img src="https://zxn6.github.io/images/avatar.png?v=1600707004044" class="avatar">
         </div>
         <div class="sitename">老母猪学霸</div>
         <span class="describtion" data-text='["温故而知新"]'>&nbsp;</span>
@@ -61,6 +61,10 @@
     
     
     
+    
+    <div class="mchocie describtion">
+        <a href="https://zxn6.github.io/friends" class="menubutton">友人帐</a>
+    </div>
     
     <hr>
     <div id="footinfo"> | Theme: <a
@@ -286,6 +290,9 @@
           
           
           
+          <li><a href="https://zxn6.github.io/friends">友链</a></li>
+
+          
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -343,6 +350,32 @@
                 
                 <div class="col-xs-6 col-sm-2"></div>
             </div>
+            
+                <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+</head>
+<body>
+    <div class="miniMode">
+        <meting-js id="myaplayer" server="netease" type="playlist" fixed="true" order="default">
+        </meting-js>
+    </div>   
+</body>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+<script>
+    var aplayerid = "1806246862";
+    var aplayerserver = "netease";
+    var aplayerorder = "default";
+    var aplayer = $("#myaplayer");
+    aplayer.attr("server",aplayerserver);
+    aplayer.attr("id",aplayerid);
+    aplayer.attr("order",aplayerorder);
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+<!-- require MetingJS -->
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
             
         </div>
         <div id="bg">
@@ -427,7 +460,7 @@
                 <img src="' + talks[i].img + '" class="talkimg"> \
                 <div class="ainfo">\
                     <div class="ainfo-intro">\
-                        <img class="intro1" src="https://zxn6.github.io/images/avatar.png?v=1600706831173">\
+                        <img class="intro1" src="https://zxn6.github.io/images/avatar.png?v=1600707004044">\
                         <div class="author">' + talks[i].author + '</div>·\
                         <div class="time">' + talks[i].time + '</div>\
                     </div>\
@@ -440,7 +473,7 @@
             <div class="talk" v-for="t in talks"> \
                 <div class="ainfo">\
                     <div class="ainfo-intro">\
-                        <img class="intro1" src="https://zxn6.github.io/images/avatar.png?v=1600706831173">\
+                        <img class="intro1" src="https://zxn6.github.io/images/avatar.png?v=1600707004044">\
                         <div class="author">' + talks[i].author + '</div>·\
                         <div class="time">' + talks[i].time + '</div>\
                     </div>\
