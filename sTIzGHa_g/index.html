@@ -1,21 +1,20 @@
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
-    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
-    <link rel="stylesheet" href="https://zxn6.github.io/media/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://zxn6.github.io/media/css/live2d.css">
-    <link rel="stylesheet" href="https://zxn6.github.io/styles/main.css">
-    <meta name="description" content="温故而知新" />
-    <title>老母猪学霸</title>
-</head>
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="https://zxn6.github.io/media/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://zxn6.github.io/media/css/live2d.css">
+<link rel="stylesheet" href="https://zxn6.github.io/styles/main.css">
+<title>老母猪学霸</title>
+
 
 <body>
     <!-- 响应式布局，针对PC端内容显示 -->
     <div id="content">
         <div class="nav-large">
             <div class="row">
+                
                 <div class="side"><body>
     
     <div id=side>
@@ -244,59 +243,98 @@
     }
 </script>
 </div>
-                <div id="main" class="col-xs-12 col-sm-7" style="z-index: 999;">
-                    
-                    <body>
-    <div id="friendscontainermobile">
+                <div id="main" class="col-xs-12 col-sm-7">
+                    <link rel="stylesheet" href="https://zxn6.github.io/media/css/font-awesome.css">
+<div class="tag-container">
+    
+    <div class="postshow">
         
-    </div>
-
-    <div id="friendscontainer">
+        <div id="post" style="width:100%">
+            <img src="https://api.r10086.com/%E5%9B%BE%E5%8C%85/%E5%8A%A8%E6%BC%AB%E7%BB%BC%E5%90%881/MAP-DESK-1080%20(83).jpg" class="postimage"
+                onclick="window.location.href= 'https://zxn6.github.io/7eDpjtQGQ/';return false">
+            <div class="posttitlebox">
+                <div class="posttitle" onclick="window.location.href= 'https://zxn6.github.io/7eDpjtQGQ/';return false">
+                    同感
+                </div>
+            </div>
+        </div>
+        <div class="postinfo">
+            <div class="postdate"><i class="fa fa-calendar"></i>2020-09-19</div>
+            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 2 min read</div>
+            <div class="posttag">
+                
+                <a href="https://zxn6.github.io/sTIzGHa_g/" class="postlink">
+                    <i class="fa fa-tag"></i> 随笔
+                </a>
+                
+            </div>
+        </div>
         
-    </div>
-</body>
-                    <div id="comment" style="background: white">
-                        <div class="commentcontainer">
-                            
-                            
-                            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+</div>
 
-<div id="gitalk-container"></div>
+</div>
+                    <div>
+                        <div class="pagi">
+    <ul>
+        
+        <li><a style="width:100px">&nbsp;</a></li>
+        
+                <li><a id="page1">1</a></li>
+                <li><a id="page2" class="active">2</a></li>
+                <li><a id="page3">3</a></li>
+                
+        <li><a style="width:100px">&nbsp;</a></li>
+        
+            </ul>
+</div>
+
+<div id="pagination-prev" style="display:none"> 
+</div>
+<div id="pagination-next" style="display:none"> </div>
+
 
 <script>
-
-  var gitalk = new Gitalk({
-    clientID: '86efd09a724d815c8827',
-    clientSecret: '8f1ee60c720c5368018d40a9ada16d9b4e841d5f',
-    repo: 'zxn6.github.io',
-    owner: 'zxn',
-    admin: ['zxn'],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-
-  gitalk.render('gitalk-container')
-
+    var prevstr = document.getElementById("pagination-prev").innerHTML;
+    var nextstr = document.getElementById("pagination-next").innerHTML;
+    var page1 = document.getElementById("page1");
+    var page2 = document.getElementById("page2");
+    var page3 = document.getElementById("page3");
+    page1.innerHTML = '-';
+    page2.innerHTML = '1';
+    page3.innerHTML = '-';
+    if (prevstr.length > 5) {
+        if (prevstr.indexOf("page/") != -1) {
+            var prevnum = parseInt(prevstr.split("page/")[1]);
+            page1.innerHTML = prevnum;
+            page2.innerHTML = prevnum + 1;
+        } else {
+            page1.innerHTML = 1;
+            page2.innerHTML = 2;
+        }
+    }
+    if (nextstr.indexOf("page/") != -1) {
+        var nextnum = parseInt(nextstr.split("page/")[1]);
+        page3.innerHTML = nextnum;
+        page2.innerHTML = nextnum - 1;
+    }
 </script>
-
-                            
-                            
-                            
-                        </div>
+                        <div style="padding-bottom:10%"></div>
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-2"></div>
+                
             </div>
             
         </div>
         <div id="bg">
         </div>
-        <div id="bgchoice" style="display: none">link</div>
-        
-        <div id="bgurl" style="display:none">https://s1.ax1x.com/2020/09/15/wyIqk8.jpg</div>
-           
+        <div id="bgchoice" style="display: none">link
+            </div>
+            
+            <div id="bgurl" style="display:none">https://s1.ax1x.com/2020/09/15/wyIqk8.jpg</div>
+               
     </div>
+
 
     <!-- 响应式布局，针对手机端内容显示 -->
     <div class="nav-small">
@@ -378,60 +416,54 @@
   }
   </script> 
 </body>
-        <div style="margin-top:60px"></div>
-        <body>
-    <div id="friendscontainermobile">
+            <div style="margin-top:50px"></div>
+            <link rel="stylesheet" href="https://zxn6.github.io/media/css/font-awesome.css">
+<div class="tag-container">
+    
+    <div class="postshow">
         
-    </div>
-
-    <div id="friendscontainer">
+        <div id="post" style="width:100%">
+            <img src="https://api.r10086.com/%E5%9B%BE%E5%8C%85/%E5%8A%A8%E6%BC%AB%E7%BB%BC%E5%90%881/MAP-DESK-1080%20(83).jpg" class="postimage"
+                onclick="window.location.href= 'https://zxn6.github.io/7eDpjtQGQ/';return false">
+            <div class="posttitlebox">
+                <div class="posttitle" onclick="window.location.href= 'https://zxn6.github.io/7eDpjtQGQ/';return false">
+                    同感
+                </div>
+            </div>
+        </div>
+        <div class="postinfo">
+            <div class="postdate"><i class="fa fa-calendar"></i>2020-09-19</div>
+            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 2 min read</div>
+            <div class="posttag">
+                
+                <a href="https://zxn6.github.io/sTIzGHa_g/" class="postlink">
+                    <i class="fa fa-tag"></i> 随笔
+                </a>
+                
+            </div>
+        </div>
         
-    </div>
-</body>
-        <div style="margin-bottom:60px">&nbsp;</div>
-        <div name="comment" style="background: white">
-            <div class="commentcontainer">
-                
-                
-                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+</div>
 
-<div id="gitalk-container"></div>
-
-<script>
-
-  var gitalk = new Gitalk({
-    clientID: '86efd09a724d815c8827',
-    clientSecret: '8f1ee60c720c5368018d40a9ada16d9b4e841d5f',
-    repo: 'zxn6.github.io',
-    owner: 'zxn',
-    admin: ['zxn'],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-
-  gitalk.render('gitalk-container')
-
-</script>
-
-                
+</div>
+            <div class="pagination-container">
                 
                 
             </div>
         </div>
-    </div>
-    <div id="landlord">
-        <div class="message" style="opacity:0"></div>
-        <canvas id="live2d" width="240" height="250" class="live2d"></canvas>
-    </div>
-    <div id="domainname" style="display:none">https://zxn6.github.io</div>
+        <div id="landlord">
+            <div class="message" style="opacity:0"></div>
+            <canvas id="live2d" width="240" height="250" class="live2d"></canvas>
+        </div>
+        <div id="domainname" style="display:none">https://zxn6.github.io</div>
 </body>
 
 </html>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
 
 <script type="text/javascript">
     var message_Path = '/live2d/'
-    var home_Path = document.getElementById("domainname").innerHTML+"/"; //此处修改为你的域名，必须带斜杠
+    var home_Path = document.getElementById("domainname").innerHTML + "/"; //此处修改为你的域名，必须带斜杠
 </script>
 <script type="text/javascript" src="https://zxn6.github.io/media/live2d/js/live2d.js"></script>
 <script type="text/javascript" src="https://zxn6.github.io/media/live2d/js/message.js"></script>
@@ -450,4 +482,4 @@
         bg.css("background", "url('" + bgurl + "')");
 </script>
 
-    <script src="https://zxn6.github.io/media/js/index.js"></script>
+<script src="https://zxn6.github.io/media/js/index.js"></script>
