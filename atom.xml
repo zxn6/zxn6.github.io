@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zxn6.github.io</id>
     <title>老母猪学霸</title>
-    <updated>2020-09-28T14:00:43.870Z</updated>
+    <updated>2020-09-28T14:05:39.738Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zxn6.github.io"/>
     <link rel="self" href="https://zxn6.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://zxn6.github.io/images/avatar.png</logo>
     <icon>https://zxn6.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老母猪学霸</rights>
+    <entry>
+        <title type="html"><![CDATA[孔子诞辰]]></title>
+        <id>https://zxn6.github.io/6fmSCX68h/</id>
+        <link href="https://zxn6.github.io/6fmSCX68h/">
+        </link>
+        <updated>2020-09-28T14:03:00.000Z</updated>
+        <content type="html"><![CDATA[<p>纪念孔子诞辰2571周年</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[秋天的第一顿海底捞]]></title>
         <id>https://zxn6.github.io/I0Duezj_X/</id>
