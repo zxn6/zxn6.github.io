@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zxn6.github.io</id>
     <title>老母猪学霸</title>
-    <updated>2020-09-28T14:05:39.738Z</updated>
+    <updated>2020-10-02T12:09:35.144Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zxn6.github.io"/>
     <link rel="self" href="https://zxn6.github.io/atom.xml"/>
@@ -10,6 +10,22 @@
     <logo>https://zxn6.github.io/images/avatar.png</logo>
     <icon>https://zxn6.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老母猪学霸</rights>
+    <entry>
+        <title type="html"><![CDATA[学年论文 之 基本构思]]></title>
+        <id>https://zxn6.github.io/0ZM0MSIfg/</id>
+        <link href="https://zxn6.github.io/0ZM0MSIfg/">
+        </link>
+        <updated>2020-10-02T11:39:21.000Z</updated>
+        <content type="html"><![CDATA[<p>角度<br>
+一、梳理《论语》学术史<br>
+二、近代以来对孔子的认识<br>
+三、近代以来对论语的认识<br>
+基本感觉<br>
+必须有一个独特的切入口，把问题控制在一个比较小的范围内</p>
+<p>想结合一下新文化运动、康有为这些</p>
+<p>感觉学术史梳理比较难 但是挺有必要的</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[孔子诞辰]]></title>
         <id>https://zxn6.github.io/6fmSCX68h/</id>
