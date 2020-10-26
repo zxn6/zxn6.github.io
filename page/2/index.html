@@ -11,11 +11,13 @@
     <title>老母猪学霸</title>
 </head>
 
+
 <body>
     <!-- 响应式布局，针对PC端内容显示 -->
     <div id="content">
         <div class="nav-large">
             <div class="row">
+                
                 <div class="side"><body>
     
     <div id=side>
@@ -248,33 +250,136 @@
     }
 </script>
 </div>
-                <div id="main" class="col-xs-12 col-sm-7" style="z-index: 999;">
-                    
-                    <body>
-    <div id="friendscontainermobile">
+                <div id="tab1" class="tab">
+                    <div class="bars">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="close"></div>
+                </div>
+                <div id="main" class="col-xs-12 col-sm-7">
+                    <link rel="stylesheet" href="https://zxn6.github.io/media/css/font-awesome.css">
+<div id="post-container">
+    
+    <div class="postshow">
         
-        
+        <div id="post" style="width:100%">
+            <img src="https://tva3.sinaimg.cn/large/0072Vf1pgy1foxk40vgg2j31hc0u0wzp.jpg" class="postimage"
+                onclick="window.location.href= 'https://zxn6.github.io/0qfFMO4TK/';return false">
+            <div class="posttitlebox">
+                <div class="posttitle" onclick="window.location.href= 'https://zxn6.github.io/0qfFMO4TK/';return false">
+                    出行
+                </div>
+            </div>
+        </div>
+        <div class="postinfo">
+            <div class="postdate"><i class="fa fa-calendar"></i>2020-09-15</div>
+            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
+            <div class="posttag">
+                
+            </div>
+        </div>
         
     </div>
+    
+    <div class="postshow">
+        
+        <div id="post" style="width:100%">
+            <img src="https://tva4.sinaimg.cn/large/a15b4afegy1fmvj06o6uzj21hc0u0dqd.jpg" class="postimage"
+                onclick="window.location.href= 'https://zxn6.github.io/vfCQadQFC/';return false">
+            <div class="posttitlebox">
+                <div class="posttitle" onclick="window.location.href= 'https://zxn6.github.io/vfCQadQFC/';return false">
+                    OneDrive
+                </div>
+            </div>
+        </div>
+        <div class="postinfo">
+            <div class="postdate"><i class="fa fa-calendar"></i>2020-09-13</div>
+            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
+            <div class="posttag">
+                
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="postshow">
+        
+        <div id="post" style="width:100%">
+            <img src="https://tva2.sinaimg.cn/large/0072Vf1pgy1foxkcgn6obj31hc0u0auq.jpg" class="postimage"
+                onclick="window.location.href= 'https://zxn6.github.io/22211/';return false">
+            <div class="posttitlebox">
+                <div class="posttitle" onclick="window.location.href= 'https://zxn6.github.io/22211/';return false">
+                    无事
+                </div>
+            </div>
+        </div>
+        <div class="postinfo">
+            <div class="postdate"><i class="fa fa-calendar"></i>2020-09-12</div>
+            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
+            <div class="posttag">
+                
+            </div>
+        </div>
+        
+    </div>
+    
+</div>
+                    <div>
+                        <div class="pagi">
+    <ul>
+        
+        <li><a href="https://zxn6.github.io/" style="width:100px" id="prev">上一页</a></li>
+        
+                <li><a id="page1">1</a></li>
+                <li><a id="page2" class="active">2</a></li>
+                <li><a id="page3">3</a></li>
+                
+        <li><a style="width:100px">&nbsp;</a></li>
+        
+            </ul>
+</div>
 
-    <div id="friendscontainer">
-        
-        
-        
-    </div>
-</body>
-                    <div id="comment" style="background: white">
-                        <div class="commentcontainer">
-                            
-                            <p>请到客户端“主题--自定义配置--valine”中填入ID和KEY</p>
-                            
-                        </div>
+<div id="pagination-prev" style="display:none"> https://zxn6.github.io/
+</div>
+<div id="pagination-next" style="display:none"> </div>
+
+
+<script>
+    var prevstr = document.getElementById("pagination-prev").innerHTML;
+    var nextstr = document.getElementById("pagination-next").innerHTML;
+    var page1 = document.getElementById("page1");
+    var page2 = document.getElementById("page2");
+    var page3 = document.getElementById("page3");
+    page1.innerHTML = '-';
+    page2.innerHTML = '1';
+    page3.innerHTML = '-';
+    if (prevstr.length > 5) {
+        if (prevstr.indexOf("page/") != -1) {
+            var prevnum = parseInt(prevstr.split("page/")[1]);
+            page1.innerHTML = prevnum;
+            page2.innerHTML = prevnum + 1;
+        } else {
+            page1.innerHTML = 1;
+            page2.innerHTML = 2;
+        }
+    }
+    if (nextstr.indexOf("page/") != -1) {
+        var nextnum = parseInt(nextstr.split("page/")[1]);
+        page3.innerHTML = nextnum;
+        page2.innerHTML = nextnum - 1;
+    }
+</script>
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-2"></div>
-            </div>
-            
-                <head>
+                
+        
+    </div>
+    
+    
+        <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
 </head>
 <body>
@@ -299,19 +404,19 @@
 <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
 <!-- require MetingJS -->
 <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
-            
-        </div>
-        <div id="bg">
-        </div>
-        <div id="bgchoice" style="display: none">link</div>
-        
-        <div id="bgurl" style="display:none">https://s1.ax1x.com/2020/09/15/wyIqk8.jpg</div>
-           
+    
     </div>
+    <div id="bg">
+    </div>
+    <div id="bgchoice" style="display: none">link
+    </div>
+            
+            <div id="bgurl" style="display:none">https://s1.ax1x.com/2020/09/15/wyIqk8.jpg</div>
+             
 
     <!-- 响应式布局，针对手机端内容显示 -->
     <div class="nav-small">
-        <head>
+            <head>
   <!-- 引入Bootstrap核心样式文件 -->
   <link rel="stylesheet" href="https://zxn6.github.io/media/css/bootstrap.min.css">
 </head>
@@ -392,32 +497,161 @@
   }
   </script> 
 </body>
-        <div style="margin-top:60px"></div>
-        <body>
-    <div id="friendscontainermobile">
-        
-        
-        
+            <!-- 移动端欢迎页 -->
+<div class="welcome">
+    <div class="avatar-border">
+        <img src="https://zxn6.github.io/images/avatar.png?v=1603725025589" class="avatar">
     </div>
+    <span class="mobiledescribtion"></span>
+</div>
 
-    <div id="friendscontainer">
+    <div id="mobilebgurl" style="display:none">https://s1.ax1x.com/2020/09/15/wyohNT.png</div>
+
+<script>
+    var welcome = $('.welcome');
+    var bgurl = document.getElementById("mobilebgurl").innerHTML;
+    for (var i = 0; i < 3; i++)
+        bgurl = bgurl.replace("\\", "/");
+    welcome.css("background", "url('" + bgurl + "')");
+    var mobiledes = document.querySelector(".mobiledescribtion");
+    var text = "温故而知新";
+    // 当前显示第几个字
+    var mobilecharIndex = 1;
+    // 每个字显示间隔默认是500毫秒
+    var mobiledelta = 500;
+
+    // 记录动画执行开始时间
+    var mobilestart = null;
+    // 是否为删除动画
+    var mobileisDeleting = false;
+
+    // 动画回调函数
+    function mobileLoadDes(time) {
+        window.requestAnimationFrame(mobileLoadDes);
+        // 初始化开始时间
+        if (!mobilestart) start = time;
+        // 获取时间间隔
+        var mobileprogress = time - mobilestart;
+        // 每隔一定的时间，打印出一个新的字符
+        if (mobileprogress > mobiledelta) {
+            // 如果是打字效果
+            if (!mobileisDeleting) {
+                // 给展示文字的span新增一个字符，使用innerHTML来替换，charIndex自增1，然后返回新的字符串子串
+                mobiledes.innerHTML = "&nbsp;" + text.slice(
+                    0,
+                    ++mobilecharIndex
+                );
+                mobiledelta = 500 - Math.random() * 400;
+            } else {
+                // 如果是删除效果，则把文字一个一个减掉
+                mobiledes.innerHTML = "&nbsp;" + text.slice(
+                    0,
+                    mobilecharIndex--
+                );
+            }
+            // 把star更新为当前时间，进行下一个周期
+            mobilestart = time;
+
+            // 如果文字已经全部打印完毕
+            if (mobilecharIndex === text.length) {
+                // 下次开始删除文字
+                mobileisDeleting = true;
+                // 删除文字的间隔为200毫秒
+                mobiledelta = 100;
+                // 额外等待1.2秒后再删除
+                mobilestart = time + 1000;
+            }
+
+            // 如果文字删除完毕
+            if (mobilecharIndex < 0) {
+                mobileisDeleting = false;
+                // 额外增加200毫秒延迟
+                mobilestart = time + 200;
+            }
+        }
+    }
+
+    window.requestAnimationFrame(mobileLoadDes);
+</script>
+            <link rel="stylesheet" href="https://zxn6.github.io/media/css/font-awesome.css">
+<div id="post-container">
+    
+    <div class="postshow">
         
-        
-        
-    </div>
-</body>
-        <div style="margin-bottom:60px">&nbsp;</div>
-        <div name="comment" style="background: white">
-            <div class="commentcontainer">
-                
-                <p>请到客户端“主题--自定义配置--valine”中填入ID和KEY</p>
+        <div id="post" style="width:100%">
+            <img src="https://tva3.sinaimg.cn/large/0072Vf1pgy1foxk40vgg2j31hc0u0wzp.jpg" class="postimage"
+                onclick="window.location.href= 'https://zxn6.github.io/0qfFMO4TK/';return false">
+            <div class="posttitlebox">
+                <div class="posttitle" onclick="window.location.href= 'https://zxn6.github.io/0qfFMO4TK/';return false">
+                    出行
+                </div>
+            </div>
+        </div>
+        <div class="postinfo">
+            <div class="postdate"><i class="fa fa-calendar"></i>2020-09-15</div>
+            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
+            <div class="posttag">
                 
             </div>
         </div>
+        
     </div>
-    <div id="landlord">
-        <div class="message" style="opacity:0"></div>
-        <canvas id="live2d" width="240" height="250" class="live2d"></canvas>
+    
+    <div class="postshow">
+        
+        <div id="post" style="width:100%">
+            <img src="https://tva4.sinaimg.cn/large/a15b4afegy1fmvj06o6uzj21hc0u0dqd.jpg" class="postimage"
+                onclick="window.location.href= 'https://zxn6.github.io/vfCQadQFC/';return false">
+            <div class="posttitlebox">
+                <div class="posttitle" onclick="window.location.href= 'https://zxn6.github.io/vfCQadQFC/';return false">
+                    OneDrive
+                </div>
+            </div>
+        </div>
+        <div class="postinfo">
+            <div class="postdate"><i class="fa fa-calendar"></i>2020-09-13</div>
+            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
+            <div class="posttag">
+                
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="postshow">
+        
+        <div id="post" style="width:100%">
+            <img src="https://tva2.sinaimg.cn/large/0072Vf1pgy1foxkcgn6obj31hc0u0auq.jpg" class="postimage"
+                onclick="window.location.href= 'https://zxn6.github.io/22211/';return false">
+            <div class="posttitlebox">
+                <div class="posttitle" onclick="window.location.href= 'https://zxn6.github.io/22211/';return false">
+                    无事
+                </div>
+            </div>
+        </div>
+        <div class="postinfo">
+            <div class="postdate"><i class="fa fa-calendar"></i>2020-09-12</div>
+            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
+            <div class="posttag">
+                
+            </div>
+        </div>
+        
+    </div>
+    
+</div>
+            <div class="pagination-container">
+                
+                <a href="https://zxn6.github.io/" class="mobile-prevpage">上一页</a>
+                  
+                
+            </div>
+        </div>
+
+        <div id="landlord">
+            <div class="message" style="opacity:0"></div>
+            <canvas id="live2d" width="240" height="250" class="live2d"></canvas>
+        </div>
     </div>
     <div id="domainname" style="display:none">https://zxn6.github.io</div>
 </body>
